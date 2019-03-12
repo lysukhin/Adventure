@@ -6,7 +6,7 @@ def run():
     scenes = {'start': Start(),
               'cockpit': Cockpit(),
               'end': End()}
-    map_ = Map(scenes, initial='start')
+    map_ = Map(scenes, start='start')
     engine = Engine(map_)
     engine.start()
 

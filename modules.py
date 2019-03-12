@@ -12,9 +12,9 @@ class Engine(object):
 
 class Map(object):
 
-    def __init__(self, scenes, initial):
+    def __init__(self, scenes, start):
         self.scenes = scenes
-        self.initial = initial
+        self.start = start
 
     def get_scene(self, scene_name):
         if scene_name not in self.scenes:
@@ -22,4 +22,22 @@ class Map(object):
         return self.scenes[scene_name]
 
     def get_start_scene(self):
-        return self.get_scene(self.initial)
+        return self.get_scene(self.start)
+
+
+class Scene(object):
+
+    def enter(self):
+        pass
+
+
+class State(object):
+
+    def __init__(self):
+        pass
+
+
+class Item(object):
+
+    def __init__(self):
+        pass

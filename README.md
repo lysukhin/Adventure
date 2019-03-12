@@ -13,8 +13,13 @@
 ╚██████╔╝╚██████╔╝███████╗███████║   ██║    
  ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝   ╚═╝    
  ```
- `python main.py`
+*   Running a game
+
+    `python main.py` or just `./dist/main`
  
- OR
  
- `./dist/main`
+*   TODO:
+    *   User actions list
+    *   Class `State` (?) for inventory, status, etc
+    *   Class `Item` (?)
+    *   A good story not including being raped to death by aliens

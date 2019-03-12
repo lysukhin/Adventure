@@ -1,15 +1,10 @@
 from sys import exit
 
+from modules import Scene
 from utils import print_message
 
 
-class Scene(object):
-
-    def enter(self):
-        pass
-
-
-class Start(object):
+class Start(Scene):
 
     def enter(self):
         message = ["""
