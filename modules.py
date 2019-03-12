@@ -45,9 +45,9 @@ class Cockpit(Scene):
  ╚══▀▀═╝  ╚═════╝ ╚══════╝╚══════╝   ╚═╝    """
         print(title)
         message = "= " * 25 + '\n' + \
-                  "You are the pilot of a spaceship. A big one." + '\n' + \
-                  "Your ship is about to waste it\'s last gallon of a fuel." + '\n' + \
-                  "You see two planes ahead of you: one is blue, one is green." + '\n' + \
+                  "You are the pilot of a spaceship. The big one." + '\n' + \
+                  "Your ship is about to waste it\'s last gallon of fuel." + '\n' + \
+                  "You see two planets ahead: one is blue, other is green." + '\n' + \
                   "Which one will you choose to land on?"
         print(message)
 
