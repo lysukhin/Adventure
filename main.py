@@ -2,8 +2,8 @@ from modules import *
 
 
 def run():
-    scenes = {'cockpit': Cockpit(), 'end': End()}
-    map_ = Map(scenes, initial='cockpit')
+    scenes = {'start': Start(), 'cockpit': Cockpit(), 'end': End()}
+    map_ = Map(scenes, initial='start')
     engine = Engine(map_)
     engine.start()
 
